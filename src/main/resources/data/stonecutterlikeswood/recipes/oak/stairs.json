@@ -5,4 +5,10 @@
   },
   "count": 1,
   "result": "minecraft:oak_stairs"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "stairs"
+	}
+]
 }

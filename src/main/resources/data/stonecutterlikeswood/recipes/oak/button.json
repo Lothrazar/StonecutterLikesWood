@@ -5,4 +5,10 @@
   },
   "count": 1,
   "result": "minecraft:oak_button"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	}
+]
 }

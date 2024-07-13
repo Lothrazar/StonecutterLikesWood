@@ -1,14 +1,14 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:oak_log"
+    "item": "minecraft:oak_planks"
   },
   "count": 1,
-  "result": "minecraft:oak_door"
-,"conditions": [
+  "result": "minecraft:oak_boat"
+  ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "logs"
+		"config": "boats"
 	}
 ]
 }

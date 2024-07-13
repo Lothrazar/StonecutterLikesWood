@@ -5,4 +5,10 @@
   },
   "count": 1,
   "result": "minecraft:oak_fence_gate"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	}
+]
 }

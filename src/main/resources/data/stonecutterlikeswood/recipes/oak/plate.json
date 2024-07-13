@@ -5,4 +5,11 @@
   },
   "count": 2,
   "result": "minecraft:oak_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	}
+]
 }

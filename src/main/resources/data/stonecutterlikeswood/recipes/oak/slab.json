@@ -5,4 +5,10 @@
   },
   "count": 2,
   "result": "minecraft:oak_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	}
+]
 }
