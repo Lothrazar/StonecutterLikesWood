@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "count": 1,
+  "result": "minecraft:warped_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	}
+]
+}

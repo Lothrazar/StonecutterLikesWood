@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_stem"
+  },
+  "count": 1,
+  "result": "minecraft:stripped_crimson_stem"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	}
+]
+}

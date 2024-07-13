@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_planks"
+  },
+  "count": 1,
+  "result": "minecraft:crimson_fence_gate"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	}
+]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "count": 2,
+  "result": "minecraft:mangrove_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	}
+]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "count": 1,
+  "result": "minecraft:dark_oak_hanging_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	}
+]
+}

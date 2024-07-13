@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "count": 2,
+  "result": "minecraft:spruce_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	}
+]
+}

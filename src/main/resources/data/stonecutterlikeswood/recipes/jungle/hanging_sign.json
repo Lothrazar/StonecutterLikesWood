@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:jungle_planks"
+  },
+  "count": 1,
+  "result": "minecraft:jungle_hanging_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	}
+]
+}

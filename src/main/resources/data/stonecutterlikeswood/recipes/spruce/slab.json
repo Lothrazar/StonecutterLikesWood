@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "count": 2,
+  "result": "minecraft:spruce_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	}
+]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:acacia_log"
+  },
+  "count": 1,
+  "result": "minecraft:acacia_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	}
+]
+}

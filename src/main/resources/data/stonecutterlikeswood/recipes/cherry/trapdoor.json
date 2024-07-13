@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:cherry_log"
+  },
+  "count": 1,
+  "result": "minecraft:cherry_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	}
+]
+}

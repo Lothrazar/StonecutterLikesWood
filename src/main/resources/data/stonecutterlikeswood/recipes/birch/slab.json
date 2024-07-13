@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_planks"
+  },
+  "count": 2,
+  "result": "minecraft:birch_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	}
+]
+}

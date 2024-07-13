@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_log"
+  },
+  "count": 1,
+  "result": "minecraft:mangrove_wood"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	}
+]
+}

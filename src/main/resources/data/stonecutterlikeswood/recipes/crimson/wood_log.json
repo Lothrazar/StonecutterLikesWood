@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_stem"
+  },
+  "count": 1,
+  "result": "minecraft:crimson_hyphae"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	}
+]
+}

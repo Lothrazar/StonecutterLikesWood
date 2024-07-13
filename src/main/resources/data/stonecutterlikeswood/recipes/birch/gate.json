@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_planks"
+  },
+  "count": 1,
+  "result": "minecraft:birch_fence_gate"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	}
+]
+}

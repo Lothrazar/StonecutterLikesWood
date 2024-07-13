@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_log"
+  },
+  "count": 8,
+  "result": "minecraft:stick"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "sticks"
+	}
+]
+}

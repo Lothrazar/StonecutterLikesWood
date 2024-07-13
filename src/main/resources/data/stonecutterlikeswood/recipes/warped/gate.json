@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:warped_planks"
+  },
+  "count": 1,
+  "result": "minecraft:warped_fence_gate"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	}
+]
+}

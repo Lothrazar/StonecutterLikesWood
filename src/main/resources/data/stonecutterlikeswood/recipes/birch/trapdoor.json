@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:birch_log"
+  },
+  "count": 1,
+  "result": "minecraft:birch_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	}
+]
+}

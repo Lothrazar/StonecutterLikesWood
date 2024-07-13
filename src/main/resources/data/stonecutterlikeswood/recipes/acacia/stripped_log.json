@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:acacia_log"
+  },
+  "count": 1,
+  "result": "minecraft:stripped_acacia_log"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	}
+]
+}
