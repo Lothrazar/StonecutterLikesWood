@@ -11,11 +11,7 @@ public class ModMain {
   public static final Logger LOGGER = LogManager.getLogger();
 
   public ModMain() {
-    //    IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-    //    ModRegistry.BLOCKS.register(eventBus);
-    //    ModRegistry.ITEMS.register(eventBus);
-    //    ModRegistry.TILE_ENTITIES.register(eventBus);
-    new ConfigManager();// config file disabled
+    new ConfigManager();
   }
 
 }
