@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "aether:skyroot_planks"
+  },
+  "count": 1,
+  "result": "aether:skyroot_boat"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "boats"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+]
+}
