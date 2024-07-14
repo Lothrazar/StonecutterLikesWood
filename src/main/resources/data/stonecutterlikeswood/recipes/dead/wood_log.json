@@ -1,18 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:acacia_planks"
+    "item": "biomesoplenty:dead_log"
   },
-  "count": 2,
-  "result": "quark:acacia_vertical_slab"
-  ,"conditions": [
+  "count": 1,
+  "result": "biomesoplenty:dead_wood"
+,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
+		"config": "logs"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
 ]
 }

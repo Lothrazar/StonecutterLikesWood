@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "biomesoplenty:mahogany_log"
+  },
+  "count": 1,
+  "result": "biomesoplenty:stripped_mahogany_log"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+]
+}

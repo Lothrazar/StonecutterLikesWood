@@ -1,18 +1,19 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:acacia_planks"
+    "item": "biomesoplenty:umbran_planks"
   },
   "count": 2,
-  "result": "quark:acacia_vertical_slab"
+  "result": "biomesoplenty:umbran_pressure_plate"
+
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
+		"config": "plates"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
 ]
 }

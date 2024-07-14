@@ -1,18 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:acacia_planks"
+    "item": "biomesoplenty:hellbark_log"
   },
-  "count": 2,
-  "result": "quark:acacia_vertical_slab"
-  ,"conditions": [
+  "count": 8,
+  "result": "minecraft:stick"
+,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
+		"config": "sticks"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
 ]
 }

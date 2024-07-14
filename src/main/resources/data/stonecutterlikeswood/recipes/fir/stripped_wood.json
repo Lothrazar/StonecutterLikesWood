@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "biomesoplenty:fir_log"
+  },
+  "count": 1,
+  "result": "biomesoplenty:stripped_fir_wood"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+]
+}

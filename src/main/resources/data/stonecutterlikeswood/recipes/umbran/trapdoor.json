@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "biomesoplenty:umbran_log"
+  },
+  "count": 1,
+  "result": "biomesoplenty:umbran_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+]
+}

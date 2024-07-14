@@ -1,18 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:acacia_planks"
+    "item": "biomesoplenty:jacaranda_planks"
   },
-  "count": 2,
-  "result": "quark:acacia_vertical_slab"
+  "count": 1,
+  "result": "biomesoplenty:jacaranda_stairs"
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
+		"config": "stairs"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
 ]
 }

@@ -5,7 +5,7 @@
 # assumes oak recipes are made, copies them to the destination wood type
 
 wood=$1
-seed="ancient" # was hardcoded to oak 
+seed="fir" # was hardcoded to oak 
 
 modid="stonecutterlikeswood"
 folder="src/main/resources/data/${modid}/recipes"
@@ -17,7 +17,7 @@ mkdir -p "${folder}"/"${wood}"/
 # TODO: improvement could be to loop on all files in /oak/ folder 
 # 
 declare -a arr=("boat" "button" "door" "fence" "gate" "hanging_sign" "log_sticks" "plate" "sign" "slab" "stairs" "stripped_log" "stripped_wood" "trapdoor" "wood_log" 
-"slab_vertical" "post" "post_stripped"
+# "slab_vertical" "post" "post_stripped"
 )
 arraylength=${#arr[@]}
 

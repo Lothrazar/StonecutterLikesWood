@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "biomesoplenty:jacaranda_planks"
+  },
+  "count": 1,
+  "result": "biomesoplenty:jacaranda_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+]
+}

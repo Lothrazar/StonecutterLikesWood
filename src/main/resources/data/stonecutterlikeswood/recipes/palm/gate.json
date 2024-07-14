@@ -1,18 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:acacia_planks"
+    "item": "biomesoplenty:palm_planks"
   },
-  "count": 2,
-  "result": "quark:acacia_vertical_slab"
+  "count": 1,
+  "result": "biomesoplenty:palm_fence_gate"
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
+		"config": "fences"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
 ]
 }

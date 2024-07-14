@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "biomesoplenty:magic_log"
+  },
+  "count": 1,
+  "result": "biomesoplenty:stripped_magic_log"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+]
+}
