@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quark:ancient_planks"
+  },
+  "count": 2,
+  "result": "quark:ancient_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+]
+}
