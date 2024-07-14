@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "twilightforest:sorting_planks"
+  },
+  "count": 2,
+  "result": "twilightforest:sorting_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+]
+}

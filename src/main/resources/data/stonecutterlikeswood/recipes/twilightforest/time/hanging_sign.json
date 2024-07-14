@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "twilightforest:time_planks"
+  },
+  "count": 1,
+  "result": "twilightforest:time_hanging_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+]
+}

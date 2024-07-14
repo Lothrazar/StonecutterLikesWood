@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "twilightforest:canopy_planks"
+  },
+  "count": 1,
+  "result": "twilightforest:canopy_boat"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "boats"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+]
+}
