@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:oak_log"
+    "item": "minecraft:crimson_stem"
   },
   "count": 3,
   "result": "quark:stripped_crimson_post"
