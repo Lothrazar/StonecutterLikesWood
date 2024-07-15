@@ -1,14 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "thermal:rubberwood_planks"
+    "item": "botania:livingwood_planks"
   },
   "count": 2,
-  "result": "thermal:rubberwood_slab"
+  "result": "botania:stripped_livingwood_slab"
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
 		"config": "slabs"
-	}
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
 ]
 }

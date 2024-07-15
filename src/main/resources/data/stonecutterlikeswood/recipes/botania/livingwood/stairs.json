@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "botania:livingwood_planks"
+  },
+  "count": 1,
+  "result": "botania:livingwood_stairs"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "stairs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+]
+}

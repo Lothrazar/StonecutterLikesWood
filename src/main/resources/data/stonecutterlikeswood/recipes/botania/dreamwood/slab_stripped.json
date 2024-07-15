@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "botania:dreamwood_planks"
+  },
+  "count": 2,
+  "result": "botania:stripped_dreamwood_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+]
+}

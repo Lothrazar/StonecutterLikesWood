@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "botania:livingwood_planks"
+  },
+  "count": 1,
+  "result": "botania:stripped_livingwood_wall"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+]
+}

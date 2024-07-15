@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "botania:dreamwood_planks"
+  },
+  "count": 1,
+  "result": "botania:dreamwood_planks_stairs"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "stairs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "botania"
+    }
+]
+}

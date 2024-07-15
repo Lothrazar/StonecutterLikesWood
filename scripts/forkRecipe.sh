@@ -16,8 +16,9 @@ mkdir -p "${folder}"/"${wood}"/
 # list all valid file recipes
 # TODO: improvement could be to loop on all files in /oak/ folder 
 # 
-declare -a arr=("boat" "button" "door" "fence" "gate" "hanging_sign" "log_sticks" "plate" "sign" "slab" "stairs" "stripped_log" "stripped_wood" "trapdoor" "wood_log" 
+declare -a arr=("boat" "button" "door" "fence" "gate" "hanging_sign" "log_sticks" "plate" "sign" "slab" "stairs" "stripped_log" "stripped_wood" "trapdoor" "wood_log"
 # "slab_vertical" "post" "post_stripped"
+#"wall" "wall_stripped" "framed_pattern" "framed" "slab_planks" "slab_stripped" "stairs_planks" "stairs_stripped"
 )
 arraylength=${#arr[@]}
 

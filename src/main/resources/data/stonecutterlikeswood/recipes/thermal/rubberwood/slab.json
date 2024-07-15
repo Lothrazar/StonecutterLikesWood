@@ -3,16 +3,16 @@
   "ingredient": {
     "item": "thermal:rubberwood_planks"
   },
-  "count": 1,
-  "result": "thermal:rubberwood_button"
+  "count": 2,
+  "result": "thermal:rubberwood_slab"
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
-		"config": "signs"
+		"config": "slabs"
 	},    
 	{
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "thermal"
     }
 ]
 }
