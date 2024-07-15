@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "quark:ancient_planks"
+    "item": "quark:ancient_log"
   },
   "count": 1,
   "result": "quark:ancient_boat"

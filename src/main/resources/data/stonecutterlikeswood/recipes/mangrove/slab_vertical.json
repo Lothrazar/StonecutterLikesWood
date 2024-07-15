@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_planks"
+  },
+  "count": 2,
+  "result": "quark:mangrove_vertical_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+]
+}

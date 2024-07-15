@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:acacia_planks"
+  },
+  "count": 1,
+  "result": "twilightforest:acacia_banister"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "twilightforest"
+    }
+]
+}

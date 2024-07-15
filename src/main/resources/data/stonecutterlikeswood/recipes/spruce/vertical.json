@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:spruce_planks"
+  },
+  "count": 1,
+  "result": "quark:vertical_spruce_planks"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+]
+}

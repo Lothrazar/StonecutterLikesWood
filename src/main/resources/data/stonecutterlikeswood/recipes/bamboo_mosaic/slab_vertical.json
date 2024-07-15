@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:bamboo_mosaic"
+  },
+  "count": 2,
+  "result": "quark:bamboo_mosaic_vertical_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+]
+}

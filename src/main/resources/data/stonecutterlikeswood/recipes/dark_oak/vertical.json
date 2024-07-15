@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:dark_oak_planks"
+  },
+  "count": 1,
+  "result": "quark:vertical_dark_oak_planks"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "quark"
+    }
+]
+}

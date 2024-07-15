@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:jungle_planks"
+    "item": "minecraft:jungle_log"
   },
   "count": 1,
   "result": "minecraft:jungle_boat"

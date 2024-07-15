@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:mangrove_planks"
+    "item": "minecraft:mangrove_log"
   },
   "count": 1,
   "result": "minecraft:mangrove_boat"

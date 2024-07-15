@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "biomesoplenty:umbran_planks"
+    "item": "biomesoplenty:umbran_log"
   },
   "count": 1,
   "result": "biomesoplenty:umbran_boat"
