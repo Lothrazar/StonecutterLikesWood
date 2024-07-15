@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "thermal:rubberwood_planks"
+  },
+  "count": 2,
+  "result": "thermal:rubberwood_pressure_plate"
+  
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "plates"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+]
+}

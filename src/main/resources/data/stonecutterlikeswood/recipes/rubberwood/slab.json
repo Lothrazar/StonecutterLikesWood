@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "thermal:rubberwood_planks"
+  },
+  "count": 2,
+  "result": "thermal:rubberwood_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	}
+]
+}

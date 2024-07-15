@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "thermal:rubberwood_log"
+  },
+  "count": 1,
+  "result": "thermal:stripped_rubberwood_log"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "thermal"
+    }
+]
+}
