@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fruitfulfun:citrus_planks"
+  },
+  "count": 1,
+  "result": "fruitfulfun:citrus_fence"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fruitfulfun"
+    }
+]
+}

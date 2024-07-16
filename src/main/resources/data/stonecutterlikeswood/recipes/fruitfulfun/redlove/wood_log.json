@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fruitfulfun:redlove_log"
+  },
+  "count": 1,
+  "result": "fruitfulfun:redlove_wood"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fruitfulfun"
+    }
+]
+}

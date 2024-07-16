@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fruitfulfun:citrus_log"
+  },
+  "count": 1,
+  "result": "fruitfulfun:citrus_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fruitfulfun"
+    }
+]
+}

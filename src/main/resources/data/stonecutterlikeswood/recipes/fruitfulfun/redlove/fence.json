@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fruitfulfun:redlove_planks"
+  },
+  "count": 1,
+  "result": "fruitfulfun:redlove_fence"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fruitfulfun"
+    }
+]
+}

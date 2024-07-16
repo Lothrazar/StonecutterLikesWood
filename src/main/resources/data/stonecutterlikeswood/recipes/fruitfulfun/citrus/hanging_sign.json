@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "fruitfulfun:citrus_planks"
+  },
+  "count": 1,
+  "result": "fruitfulfun:citrus_hanging_sign"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fruitfulfun"
+    }
+]
+}
