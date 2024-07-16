@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "evilcraft:undead_log"
+  },
+  "count": 1,
+  "result": "evilcraft:undead_log_stripped"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    }
+]
+}

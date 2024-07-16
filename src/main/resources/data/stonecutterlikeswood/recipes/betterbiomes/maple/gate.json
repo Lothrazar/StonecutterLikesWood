@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betterbiomes:maple_planks"
+  },
+  "count": 1,
+  "result": "betterbiomes:maple_fence_gate"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "fences"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "betterbiomes"
+    }
+]
+}

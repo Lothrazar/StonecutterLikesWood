@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "betterbiomes:maple_log"
+  },
+  "count": 1,
+  "result": "betterbiomes:maple_wood"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "betterbiomes"
+    }
+]
+}
