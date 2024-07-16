@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:magnolia_planks"
+  },
+  "count": 1,
+  "result": "regions_unexplored:magnolia_button"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

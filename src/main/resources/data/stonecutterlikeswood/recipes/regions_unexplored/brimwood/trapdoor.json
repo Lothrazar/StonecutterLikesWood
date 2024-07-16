@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:brimwood_log"
+  },
+  "count": 1,
+  "result": "regions_unexplored:brimwood_trapdoor"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "trapdoors"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

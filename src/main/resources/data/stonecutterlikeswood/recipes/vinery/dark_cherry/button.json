@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vinery:dark_cherry_planks"
+  },
+  "count": 1,
+  "result": "vinery:dark_cherry_button"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+]
+}

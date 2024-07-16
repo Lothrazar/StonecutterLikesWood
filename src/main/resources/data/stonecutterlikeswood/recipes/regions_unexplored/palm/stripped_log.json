@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:palm_log"
+  },
+  "count": 1,
+  "result": "regions_unexplored:stripped_palm_log"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

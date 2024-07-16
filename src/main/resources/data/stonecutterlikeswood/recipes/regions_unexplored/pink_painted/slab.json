@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:pink_painted_planks"
+  },
+  "count": 2,
+  "result": "regions_unexplored:pink_painted_slab"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "slabs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

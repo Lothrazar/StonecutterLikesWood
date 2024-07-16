@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:dead_log"
+  },
+  "count": 8,
+  "result": "minecraft:stick"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "sticks"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

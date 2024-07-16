@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:dead_log"
+  },
+  "count": 1,
+  "result": "regions_unexplored:dead_boat"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "boats"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

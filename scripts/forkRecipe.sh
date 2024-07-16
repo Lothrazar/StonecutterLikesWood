@@ -5,7 +5,7 @@
 # assumes oak recipes are made, copies them to the destination wood type
 
 wood=$1
-seed="oak" # was hardcoded to oak 
+seed="baobab"
 
 modid="stonecutterlikeswood"
 folder="src/main/resources/data/${modid}/recipes"

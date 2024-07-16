@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:magenta_painted_planks"
+  },
+  "count": 1,
+  "result": "regions_unexplored:magenta_painted_stairs"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "stairs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

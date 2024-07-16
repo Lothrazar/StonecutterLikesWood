@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "regions_unexplored:socotra_planks"
+  },
+  "count": 1,
+  "result": "regions_unexplored:socotra_button"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "signs"
+	},
+	{
+      "type": "forge:mod_loaded",
+      "modid": "regions_unexplored"
+    }
+]
+}

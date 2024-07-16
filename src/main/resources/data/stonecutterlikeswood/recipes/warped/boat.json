@@ -1,14 +1,18 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:warped_planks"
+    "item": "minecraft:warped_stem"
   },
   "count": 1,
-  "result": "minecraft:warped_boat"
+  "result": "fireproofboats:warped_boat"
   ,"conditions": [
 	{
 		"type": "stonecutterlikeswood:config",
 		"config": "boats"
-	}
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fireproofboats"
+    }
 ]
 }

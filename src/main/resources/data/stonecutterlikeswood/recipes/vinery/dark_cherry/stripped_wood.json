@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "vinery:dark_cherry_log"
+  },
+  "count": 1,
+  "result": "vinery:stripped_dark_cherry_wood"
+,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "logs"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "vinery"
+    }
+]
+}

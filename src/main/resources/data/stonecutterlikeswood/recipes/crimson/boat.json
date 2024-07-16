@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:crimson_stem"
+  },
+  "count": 1,
+  "result": "fireproofboats:crimson_boat"
+  ,"conditions": [
+	{
+		"type": "stonecutterlikeswood:config",
+		"config": "boats"
+	},    
+	{
+      "type": "forge:mod_loaded",
+      "modid": "fireproofboats"
+    }
+]
+}
