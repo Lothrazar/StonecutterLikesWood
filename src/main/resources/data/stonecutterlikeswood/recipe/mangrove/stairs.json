@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:mangrove_planks"
   },
-  "count": 1,
-  "result": "minecraft:mangrove_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	}
-]
+  "result": {
+    "id": "minecraft:mangrove_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    }
+  ]
 }

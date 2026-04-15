@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "minecraft:acacia_planks"
   },
-  "count": 1,
-  "result": "quark:vertical_acacia_planks"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
-	},    
-	{
+  "result": {
+    "id": "quark:vertical_acacia_planks",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "slabs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "quark"
     }
-]
+  ]
 }

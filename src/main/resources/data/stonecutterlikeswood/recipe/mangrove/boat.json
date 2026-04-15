@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:mangrove_log"
   },
-  "count": 1,
-  "result": "minecraft:mangrove_boat"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "boats"
-	}
-]
+  "result": {
+    "id": "minecraft:mangrove_boat",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "boats"
+    }
+  ]
 }

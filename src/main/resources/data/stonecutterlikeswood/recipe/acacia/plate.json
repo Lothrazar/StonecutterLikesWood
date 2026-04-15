@@ -3,13 +3,14 @@
   "ingredient": {
     "item": "minecraft:acacia_planks"
   },
-  "count": 2,
-  "result": "minecraft:acacia_pressure_plate"
-  
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "plates"
-	}
-]
+  "result": {
+    "id": "minecraft:acacia_pressure_plate",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "plates"
+    }
+  ]
 }

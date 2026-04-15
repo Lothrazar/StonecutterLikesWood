@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:acacia_planks"
   },
-  "count": 1,
-  "result": "minecraft:acacia_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	}
-]
+  "result": {
+    "id": "minecraft:acacia_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    }
+  ]
 }

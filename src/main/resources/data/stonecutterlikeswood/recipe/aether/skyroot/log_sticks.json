@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "aether:skyroot_log"
   },
-  "count": 8,
-  "result": "aether:skyroot_stick"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "sticks"
-	},    
-	{
+  "result": {
+    "id": "aether:skyroot_stick",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "sticks"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "aether"
     }
-]
+  ]
 }

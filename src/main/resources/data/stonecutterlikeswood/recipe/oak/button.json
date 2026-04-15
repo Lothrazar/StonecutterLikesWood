@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:oak_planks"
   },
-  "count": 1,
-  "result": "minecraft:oak_button"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "signs"
-	}
-]
+  "result": {
+    "id": "minecraft:oak_button",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "signs"
+    }
+  ]
 }

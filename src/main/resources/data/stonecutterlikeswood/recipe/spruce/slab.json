@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:spruce_planks"
   },
-  "count": 2,
-  "result": "minecraft:spruce_slab"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
-	}
-]
+  "result": {
+    "id": "minecraft:spruce_slab",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "slabs"
+    }
+  ]
 }

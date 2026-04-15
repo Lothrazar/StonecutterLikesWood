@@ -3,17 +3,18 @@
   "ingredient": {
     "item": "biomesoplenty:umbran_planks"
   },
-  "count": 2,
-  "result": "biomesoplenty:umbran_pressure_plate"
-
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "plates"
-	},    
-	{
+  "result": {
+    "id": "biomesoplenty:umbran_pressure_plate",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "plates"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "biomesoplenty"
     }
-]
+  ]
 }

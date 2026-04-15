@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_block"
   },
-  "count": 1,
-  "result": "minecraft:bamboo_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
 }

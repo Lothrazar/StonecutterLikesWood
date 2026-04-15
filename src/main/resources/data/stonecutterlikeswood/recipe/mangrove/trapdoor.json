@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:mangrove_log"
   },
-  "count": 1,
-  "result": "minecraft:mangrove_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	}
-]
+  "result": {
+    "id": "minecraft:mangrove_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
 }

@@ -3,13 +3,14 @@
   "ingredient": {
     "item": "minecraft:warped_planks"
   },
-  "count": 2,
-  "result": "minecraft:warped_pressure_plate"
-  
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "plates"
-	}
-]
+  "result": {
+    "id": "minecraft:warped_pressure_plate",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "plates"
+    }
+  ]
 }

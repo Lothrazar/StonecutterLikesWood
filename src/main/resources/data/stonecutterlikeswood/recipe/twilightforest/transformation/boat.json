@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "twilightforest:transformation_log"
   },
-  "count": 1,
-  "result": "twilightforest:transformation_boat"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "boats"
-	},    
-	{
+  "result": {
+    "id": "twilightforest:transformation_boat",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "boats"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
-]
+  ]
 }

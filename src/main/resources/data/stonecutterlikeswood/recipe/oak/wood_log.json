@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:oak_log"
   },
-  "count": 1,
-  "result": "minecraft:oak_wood"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	}
-]
+  "result": {
+    "id": "minecraft:oak_wood",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
 }

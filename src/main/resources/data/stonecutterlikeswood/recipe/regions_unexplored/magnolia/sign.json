@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "regions_unexplored:magnolia_planks"
   },
-  "count": 1,
-  "result": "regions_unexplored:magnolia_sign"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "signs"
-	},
-	{
+  "result": {
+    "id": "regions_unexplored:magnolia_sign",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "signs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "regions_unexplored"
     }
-]
+  ]
 }

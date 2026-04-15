@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_mosaic"
   },
-  "count": 2,
-  "result": "minecraft:bamboo_mosaic_slab"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_mosaic_slab",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "slabs"
+    }
+  ]
 }

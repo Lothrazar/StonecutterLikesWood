@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "minecraft:mangrove_log"
   },
-  "count": 3,
-  "result": "quark:stripped_mangrove_post"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	},    
-	{
+  "result": {
+    "id": "quark:stripped_mangrove_post",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "quark"
     }
-]
+  ]
 }

@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_mosaic"
   },
-  "count": 1,
-  "result": "minecraft:bamboo_mosaic_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_mosaic_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    }
+  ]
 }

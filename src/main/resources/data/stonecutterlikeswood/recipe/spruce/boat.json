@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:spruce_log"
   },
-  "count": 1,
-  "result": "minecraft:spruce_boat"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "boats"
-	}
-]
+  "result": {
+    "id": "minecraft:spruce_boat",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "boats"
+    }
+  ]
 }

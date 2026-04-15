@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:oak_planks"
   },
-  "count": 2,
-  "result": "minecraft:oak_slab"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "slabs"
-	}
-]
+  "result": {
+    "id": "minecraft:oak_slab",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "slabs"
+    }
+  ]
 }

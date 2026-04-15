@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:acacia_planks"
   },
-  "count": 1,
-  "result": "minecraft:acacia_fence"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	}
-]
+  "result": {
+    "id": "minecraft:acacia_fence",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    }
+  ]
 }

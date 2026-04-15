@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_block"
   },
-  "count": 1,
-  "result": "minecraft:bamboo_raft"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "boats"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_raft",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "boats"
+    }
+  ]
 }

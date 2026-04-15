@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:cherry_log"
   },
-  "count": 1,
-  "result": "minecraft:cherry_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	}
-]
+  "result": {
+    "id": "minecraft:cherry_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
 }

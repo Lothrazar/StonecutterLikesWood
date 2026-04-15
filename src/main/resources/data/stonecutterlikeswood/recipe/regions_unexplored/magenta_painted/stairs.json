@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "regions_unexplored:magenta_painted_planks"
   },
-  "count": 1,
-  "result": "regions_unexplored:magenta_painted_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	},
-	{
+  "result": {
+    "id": "regions_unexplored:magenta_painted_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "regions_unexplored"
     }
-]
+  ]
 }

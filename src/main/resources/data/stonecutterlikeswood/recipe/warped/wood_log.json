@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:warped_stem"
   },
-  "count": 1,
-  "result": "minecraft:warped_hyphae"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	}
-]
+  "result": {
+    "id": "minecraft:warped_hyphae",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
 }

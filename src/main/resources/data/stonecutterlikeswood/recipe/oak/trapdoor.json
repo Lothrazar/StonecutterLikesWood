@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:oak_log"
   },
-  "count": 1,
-  "result": "minecraft:oak_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	}
-]
+  "result": {
+    "id": "minecraft:oak_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
 }

@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:cherry_planks"
   },
-  "count": 1,
-  "result": "minecraft:cherry_sign"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "signs"
-	}
-]
+  "result": {
+    "id": "minecraft:cherry_sign",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "signs"
+    }
+  ]
 }

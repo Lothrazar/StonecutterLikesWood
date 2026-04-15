@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "twilightforest:mining_log"
   },
-  "count": 1,
-  "result": "twilightforest:mining_wood"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	},    
-	{
+  "result": {
+    "id": "twilightforest:mining_wood",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
-]
+  ]
 }

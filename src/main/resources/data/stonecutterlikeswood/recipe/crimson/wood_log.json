@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:crimson_stem"
   },
-  "count": 1,
-  "result": "minecraft:crimson_hyphae"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	}
-]
+  "result": {
+    "id": "minecraft:crimson_hyphae",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
 }

@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:spruce_log"
   },
-  "count": 8,
-  "result": "minecraft:stick"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "sticks"
-	}
-]
+  "result": {
+    "id": "minecraft:stick",
+    "count": 8
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "sticks"
+    }
+  ]
 }

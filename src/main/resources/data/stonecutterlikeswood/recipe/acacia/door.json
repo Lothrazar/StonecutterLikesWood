@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:acacia_log"
   },
-  "count": 1,
-  "result": "minecraft:acacia_door"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "doors"
-	}
-]
+  "result": {
+    "id": "minecraft:acacia_door",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "doors"
+    }
+  ]
 }

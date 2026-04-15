@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "biomesoplenty:redwood_planks"
   },
-  "count": 1,
-  "result": "biomesoplenty:redwood_button"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "signs"
-	},    
-	{
+  "result": {
+    "id": "biomesoplenty:redwood_button",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "signs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "biomesoplenty"
     }
-]
+  ]
 }

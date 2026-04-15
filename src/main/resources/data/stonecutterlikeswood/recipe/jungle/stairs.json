@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:jungle_planks"
   },
-  "count": 1,
-  "result": "minecraft:jungle_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	}
-]
+  "result": {
+    "id": "minecraft:jungle_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    }
+  ]
 }

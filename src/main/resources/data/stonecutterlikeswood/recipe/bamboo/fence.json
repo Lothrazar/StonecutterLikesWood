@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_planks"
   },
-  "count": 1,
-  "result": "minecraft:bamboo_fence"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_fence",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    }
+  ]
 }

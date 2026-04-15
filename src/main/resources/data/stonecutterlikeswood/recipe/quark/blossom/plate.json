@@ -3,17 +3,18 @@
   "ingredient": {
     "item": "quark:blossom_planks"
   },
-  "count": 2,
-  "result": "quark:blossom_pressure_plate"
-  
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "plates"
-	},    
-	{
+  "result": {
+    "id": "quark:blossom_pressure_plate",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "plates"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "quark"
     }
-]
+  ]
 }

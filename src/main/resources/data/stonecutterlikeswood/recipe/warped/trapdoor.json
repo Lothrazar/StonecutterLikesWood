@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:warped_stem"
   },
-  "count": 1,
-  "result": "minecraft:warped_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	}
-]
+  "result": {
+    "id": "minecraft:warped_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
 }

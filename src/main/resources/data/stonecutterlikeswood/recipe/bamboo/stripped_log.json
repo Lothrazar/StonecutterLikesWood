@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_block"
   },
-  "count": 1,
-  "result": "minecraft:stripped_bamboo_block"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	}
-]
+  "result": {
+    "id": "minecraft:stripped_bamboo_block",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
 }

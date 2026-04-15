@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "botania:livingwood_planks"
   },
-  "count": 1,
-  "result": "botania:livingwood_fence_gate"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	},
-	{
+  "result": {
+    "id": "botania:livingwood_fence_gate",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "botania"
     }
-]
+  ]
 }

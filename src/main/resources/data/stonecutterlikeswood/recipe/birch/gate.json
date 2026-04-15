@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:birch_planks"
   },
-  "count": 1,
-  "result": "minecraft:birch_fence_gate"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	}
-]
+  "result": {
+    "id": "minecraft:birch_fence_gate",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    }
+  ]
 }

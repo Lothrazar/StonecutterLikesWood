@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "regions_unexplored:palm_planks"
   },
-  "count": 1,
-  "result": "regions_unexplored:palm_fence"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	},
-	{
+  "result": {
+    "id": "regions_unexplored:palm_fence",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "regions_unexplored"
     }
-]
+  ]
 }

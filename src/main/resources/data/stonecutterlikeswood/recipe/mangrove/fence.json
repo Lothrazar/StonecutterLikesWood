@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:mangrove_planks"
   },
-  "count": 1,
-  "result": "minecraft:mangrove_fence"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "fences"
-	}
-]
+  "result": {
+    "id": "minecraft:mangrove_fence",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "fences"
+    }
+  ]
 }

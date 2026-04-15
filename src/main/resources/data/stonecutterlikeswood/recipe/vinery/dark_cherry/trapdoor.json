@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "vinery:dark_cherry_log"
   },
-  "count": 1,
-  "result": "vinery:dark_cherry_trapdoor"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "trapdoors"
-	},    
-	{
+  "result": {
+    "id": "vinery:dark_cherry_trapdoor",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "vinery"
     }
-]
+  ]
 }

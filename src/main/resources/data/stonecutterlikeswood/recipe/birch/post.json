@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "minecraft:birch_log"
   },
-  "count": 3,
-  "result": "quark:birch_post"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	},    
-	{
+  "result": {
+    "id": "quark:birch_post",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "quark"
     }
-]
+  ]
 }

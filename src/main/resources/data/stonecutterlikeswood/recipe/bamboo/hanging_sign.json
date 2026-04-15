@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:bamboo_planks"
   },
-  "count": 1,
-  "result": "minecraft:bamboo_hanging_sign"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "signs"
-	}
-]
+  "result": {
+    "id": "minecraft:bamboo_hanging_sign",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "signs"
+    }
+  ]
 }

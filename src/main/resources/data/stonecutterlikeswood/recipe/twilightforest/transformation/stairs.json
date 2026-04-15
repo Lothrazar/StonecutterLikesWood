@@ -3,16 +3,18 @@
   "ingredient": {
     "item": "twilightforest:transformation_planks"
   },
-  "count": 1,
-  "result": "twilightforest:transformation_stairs"
-  ,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "stairs"
-	},    
-	{
+  "result": {
+    "id": "twilightforest:transformation_stairs",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    },
+    {
       "type": "neoforge:mod_loaded",
       "modid": "twilightforest"
     }
-]
+  ]
 }

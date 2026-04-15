@@ -3,12 +3,14 @@
   "ingredient": {
     "item": "minecraft:jungle_log"
   },
-  "count": 1,
-  "result": "minecraft:stripped_jungle_log"
-,"conditions": [
-	{
-		"type": "stonecutterlikeswood:config",
-		"config": "logs"
-	}
-]
+  "result": {
+    "id": "minecraft:stripped_jungle_log",
+    "count": 1
+  },
+  "conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
 }
