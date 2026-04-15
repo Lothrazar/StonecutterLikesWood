@@ -7,7 +7,7 @@
     "id": "regions_unexplored:stripped_baobab_wood",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

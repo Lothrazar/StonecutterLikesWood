@@ -7,7 +7,7 @@
     "id": "regions_unexplored:stripped_blue_bioshroom_stem",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

@@ -7,7 +7,7 @@
     "id": "regions_unexplored:pink_bioshroom_stairs",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "stairs"

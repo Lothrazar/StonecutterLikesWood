@@ -7,7 +7,7 @@
     "id": "regions_unexplored:socotra_trapdoor",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "trapdoors"

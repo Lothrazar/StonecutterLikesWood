@@ -7,7 +7,7 @@
     "id": "regions_unexplored:cypress_hanging_sign",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "signs"

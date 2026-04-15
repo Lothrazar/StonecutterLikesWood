@@ -7,7 +7,7 @@
     "id": "twilightforest:dark_oak_banister",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "fences"

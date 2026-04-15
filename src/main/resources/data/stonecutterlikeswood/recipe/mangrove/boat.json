@@ -7,7 +7,7 @@
     "id": "minecraft:mangrove_boat",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "boats"

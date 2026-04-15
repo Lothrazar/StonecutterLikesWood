@@ -7,7 +7,7 @@
     "id": "quark:vertical_spruce_planks",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "slabs"

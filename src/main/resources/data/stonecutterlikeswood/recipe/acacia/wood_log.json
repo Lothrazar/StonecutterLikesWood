@@ -7,7 +7,7 @@
     "id": "minecraft:acacia_wood",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

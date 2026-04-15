@@ -7,7 +7,7 @@
     "id": "fruitfulfun:citrus_trapdoor",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "trapdoors"

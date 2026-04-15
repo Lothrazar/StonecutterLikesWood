@@ -7,7 +7,7 @@
     "id": "vinery:dark_cherry_sign",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "signs"

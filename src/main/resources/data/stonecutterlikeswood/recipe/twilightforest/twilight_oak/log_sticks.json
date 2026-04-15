@@ -7,7 +7,7 @@
     "id": "minecraft:stick",
     "count": 8
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "sticks"

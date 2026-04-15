@@ -7,7 +7,7 @@
     "id": "biomesoplenty:redwood_pressure_plate",
     "count": 2
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "plates"

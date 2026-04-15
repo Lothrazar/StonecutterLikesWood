@@ -7,7 +7,7 @@
     "id": "minecraft:warped_slab",
     "count": 2
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "slabs"

@@ -7,7 +7,7 @@
     "id": "regions_unexplored:cobalt_sign",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "signs"

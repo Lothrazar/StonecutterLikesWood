@@ -7,7 +7,7 @@
     "id": "quark:vertical_crimson_planks",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "slabs"

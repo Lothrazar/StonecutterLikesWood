@@ -7,7 +7,7 @@
     "id": "quark:hollow_crimson_stem",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

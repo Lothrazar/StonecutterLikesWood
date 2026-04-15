@@ -7,7 +7,7 @@
     "id": "vinery:stripped_dark_cherry_log",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

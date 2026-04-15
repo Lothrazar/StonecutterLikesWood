@@ -7,7 +7,7 @@
     "id": "botania:pattern_framed_dreamwood",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "slabs"

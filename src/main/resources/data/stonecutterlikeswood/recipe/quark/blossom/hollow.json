@@ -7,7 +7,7 @@
     "id": "quark:hollow_blossom_log",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

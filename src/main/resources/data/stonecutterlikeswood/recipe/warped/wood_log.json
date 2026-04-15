@@ -7,7 +7,7 @@
     "id": "minecraft:warped_hyphae",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

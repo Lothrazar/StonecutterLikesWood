@@ -7,7 +7,7 @@
     "id": "quark:stripped_cherry_post",
     "count": 3
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

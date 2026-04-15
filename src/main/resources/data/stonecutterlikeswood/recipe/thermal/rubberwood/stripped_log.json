@@ -7,7 +7,7 @@
     "id": "thermal:stripped_rubberwood_log",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"

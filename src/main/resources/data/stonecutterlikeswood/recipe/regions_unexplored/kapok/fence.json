@@ -7,7 +7,7 @@
     "id": "regions_unexplored:kapok_fence",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "fences"

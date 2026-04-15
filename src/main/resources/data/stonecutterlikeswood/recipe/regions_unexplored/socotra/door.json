@@ -7,7 +7,7 @@
     "id": "regions_unexplored:socotra_door",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "doors"

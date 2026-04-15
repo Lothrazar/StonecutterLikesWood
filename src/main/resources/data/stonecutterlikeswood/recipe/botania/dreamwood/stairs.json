@@ -7,7 +7,7 @@
     "id": "botania:dreamwood_stairs",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "stairs"

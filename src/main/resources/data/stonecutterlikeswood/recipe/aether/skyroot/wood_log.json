@@ -7,7 +7,7 @@
     "id": "aether:skyroot_wood",
     "count": 1
   },
-  "conditions": [
+  "neoforge:conditions": [
     {
       "type": "stonecutterlikeswood:config",
       "config": "logs"
