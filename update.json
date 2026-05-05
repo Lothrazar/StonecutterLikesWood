@@ -1,10 +1,9 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/stonecutter-likes-wood",
   "promos": {
-    "1.20.1-latest": "1.0.0"
+    "1.21.1-latest": "1.1.0"
   },
-  "1.20.1": {
-    "1.0.0": "Release ",
-    "1.1.0":"Add support for regions unexplored wood https://www.curseforge.com/minecraft/mc-mods/regions-unexplored  ; crimson and warped boats from Fireproof boats https://www.curseforge.com/minecraft/mc-mods/fireproof-boats and Dark Cherry wood from Vinery https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery "
+  "1.21.1": {
+    "1.1.0": "Ported "
   }
 }
