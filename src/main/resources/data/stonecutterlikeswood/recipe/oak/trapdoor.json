@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_log"
+  },
+  "result": {
+    "id": "minecraft:oak_trapdoor",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "trapdoors"
+    }
+  ]
+}

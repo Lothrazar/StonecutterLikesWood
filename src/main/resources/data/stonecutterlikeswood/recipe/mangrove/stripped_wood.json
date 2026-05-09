@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:mangrove_log"
+  },
+  "result": {
+    "id": "minecraft:stripped_mangrove_wood",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
+}

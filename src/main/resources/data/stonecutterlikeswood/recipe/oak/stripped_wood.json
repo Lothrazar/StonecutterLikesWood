@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:oak_log"
+  },
+  "result": {
+    "id": "minecraft:stripped_oak_wood",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "logs"
+    }
+  ]
+}

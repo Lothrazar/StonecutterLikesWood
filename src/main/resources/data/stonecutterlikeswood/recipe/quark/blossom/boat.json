@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "quark:blossom_log"
+  },
+  "result": {
+    "id": "quark:blossom_boat",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "boats"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "quark"
+    }
+  ]
+}

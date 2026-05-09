@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "evilcraft:undead_planks"
+  },
+  "result": {
+    "id": "evilcraft:undead_planks_stairs",
+    "count": 1
+  },
+  "neoforge:conditions": [
+    {
+      "type": "stonecutterlikeswood:config",
+      "config": "stairs"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "evilcraft"
+    }
+  ]
+}

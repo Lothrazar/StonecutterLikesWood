@@ -1,14 +1,18 @@
 package com.lothrazar.stonecutterlikeswood;
 
-import com.google.gson.JsonObject;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.common.crafting.conditions.ICondition;
-import net.minecraftforge.common.crafting.conditions.IConditionSerializer;
+import com.mojang.serialization.Codec;
+import com.mojang.serialization.MapCodec;
+import com.mojang.serialization.codecs.RecordCodecBuilder;
+import net.neoforged.neoforge.common.conditions.ICondition;
 
 public class ConfigBooleanCondition implements ICondition {
 
-  private static final String id = "config";
-  private static final ResourceLocation ID = new ResourceLocation(ModMain.MODID, id);
+  public static final MapCodec<ConfigBooleanCondition> CODEC = RecordCodecBuilder.mapCodec(inst ->
+      inst.group(
+          Codec.STRING.fieldOf("config").forGetter(c -> c.group)
+      ).apply(inst, ConfigBooleanCondition::new)
+  );
+
   private String group;
 
   public ConfigBooleanCondition(String config) {
@@ -16,13 +20,13 @@ public class ConfigBooleanCondition implements ICondition {
   }
 
   @Override
-  public ResourceLocation getID() {
-    return ID;
+  public String toString() {
+    return "config(\"" + group + "\")";
   }
 
   @Override
-  public String toString() {
-    return id + "(\"" + group + "\")";
+  public MapCodec<? extends ICondition> codec() {
+    return CODEC;
   }
 
   @Override
@@ -35,26 +39,5 @@ public class ConfigBooleanCondition implements ICondition {
       ModMain.LOGGER.error("Bad config entry ", group);
     }
     return false;
-  }
-
-  public static class Serializer implements IConditionSerializer<ConfigBooleanCondition> {
-
-    public static final Serializer INSTANCE = new Serializer();
-
-    @Override
-    public void write(JsonObject json, ConfigBooleanCondition value) {
-      json.addProperty(id, value.group.toString());
-    }
-
-    @Override
-    public ConfigBooleanCondition read(JsonObject json) {
-      String config = json.get(id).getAsString();
-      return new ConfigBooleanCondition(config);
-    }
-
-    @Override
-    public ResourceLocation getID() {
-      return ID;
-    }
   }
 }

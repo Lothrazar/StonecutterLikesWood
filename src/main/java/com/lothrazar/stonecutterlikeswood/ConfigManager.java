@@ -2,17 +2,17 @@ package com.lothrazar.stonecutterlikeswood;
 
 import java.util.HashMap;
 import java.util.Map;
-import com.lothrazar.library.config.ConfigTemplate;
-import net.minecraftforge.common.ForgeConfigSpec;
-import net.minecraftforge.common.ForgeConfigSpec.BooleanValue;
 
-public class ConfigManager extends ConfigTemplate {
+import net.neoforged.neoforge.common.ModConfigSpec;
+import net.neoforged.neoforge.common.ModConfigSpec.*;
 
-  private static ForgeConfigSpec CONFIG;
+public class ConfigManager  {
+
+  static ModConfigSpec CONFIG;
 
   public static Map<StonecutterGrouping, BooleanValue> CONFIG_GROUP = new HashMap<>();
   static {
-    final ForgeConfigSpec.Builder BUILDER = builder();
+    final ModConfigSpec.Builder BUILDER = new ModConfigSpec.Builder();
     BUILDER.comment("Set to false to disable a recipe group (changes require a game restart)").push(ModMain.MODID);
     BooleanValue slabs = BUILDER.comment(" Slabs can be made in the stonecutter").define(StonecutterGrouping.SLABS.toString(), true);
     CONFIG_GROUP.put(StonecutterGrouping.SLABS, slabs);
@@ -40,7 +40,7 @@ public class ConfigManager extends ConfigTemplate {
     CONFIG = BUILDER.build();
   }
 
-  public ConfigManager() {
-    CONFIG.setConfig(setup(ModMain.MODID));
-  }
+//  public ConfigManager() {
+//    CONFIG.setConfig(setup(ModMain.MODID));
+//  }
 }
