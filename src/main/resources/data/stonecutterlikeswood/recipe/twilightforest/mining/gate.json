@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "twilightforest:mining_planks"
-  },
+  "ingredient": "twilightforest:mining_planks",
   "result": {
     "id": "twilightforest:mining_fence_gate",
     "count": 1

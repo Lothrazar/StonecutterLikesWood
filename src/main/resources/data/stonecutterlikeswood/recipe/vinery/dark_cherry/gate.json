@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "vinery:dark_cherry_planks"
-  },
+  "ingredient": "vinery:dark_cherry_planks",
   "result": {
     "id": "vinery:dark_cherry_fence_gate",
     "count": 1

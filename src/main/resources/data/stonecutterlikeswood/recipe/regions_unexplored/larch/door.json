@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:larch_log"
-  },
+  "ingredient": "regions_unexplored:larch_log",
   "result": {
     "id": "regions_unexplored:larch_door",
     "count": 1

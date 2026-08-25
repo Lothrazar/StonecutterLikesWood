@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "thermal:rubberwood_planks"
-  },
+  "ingredient": "thermal:rubberwood_planks",
   "result": {
     "id": "thermal:rubberwood_pressure_plate",
     "count": 2

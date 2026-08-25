@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:mahogany_planks"
-  },
+  "ingredient": "biomesoplenty:mahogany_planks",
   "result": {
     "id": "biomesoplenty:mahogany_fence_gate",
     "count": 1

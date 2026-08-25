@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "twilightforest:time_log"
-  },
+  "ingredient": "twilightforest:time_log",
   "result": {
     "id": "twilightforest:time_trapdoor",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:magic_log"
-  },
+  "ingredient": "biomesoplenty:magic_log",
   "result": {
     "id": "biomesoplenty:stripped_magic_wood",
     "count": 1

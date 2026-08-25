@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:redwood_log"
-  },
+  "ingredient": "regions_unexplored:redwood_log",
   "result": {
     "id": "regions_unexplored:redwood_trapdoor",
     "count": 1

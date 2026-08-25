@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "botania:dreamwood_log"
-  },
+  "ingredient": "botania:dreamwood_log",
   "result": {
     "id": "minecraft:stick",
     "count": 8

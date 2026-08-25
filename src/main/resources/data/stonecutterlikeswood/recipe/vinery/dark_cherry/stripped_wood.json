@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "vinery:dark_cherry_log"
-  },
+  "ingredient": "vinery:dark_cherry_log",
   "result": {
     "id": "vinery:stripped_dark_cherry_wood",
     "count": 1

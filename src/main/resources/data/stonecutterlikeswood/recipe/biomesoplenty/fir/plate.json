@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:fir_planks"
-  },
+  "ingredient": "biomesoplenty:fir_planks",
   "result": {
     "id": "biomesoplenty:fir_pressure_plate",
     "count": 2

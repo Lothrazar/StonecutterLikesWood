@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "fruitfulfun:redlove_log"
-  },
+  "ingredient": "fruitfulfun:redlove_log",
   "result": {
     "id": "fruitfulfun:stripped_redlove_wood",
     "count": 1

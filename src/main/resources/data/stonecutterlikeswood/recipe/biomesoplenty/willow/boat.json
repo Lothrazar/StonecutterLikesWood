@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:willow_log"
-  },
+  "ingredient": "biomesoplenty:willow_log",
   "result": {
     "id": "biomesoplenty:willow_boat",
     "count": 1

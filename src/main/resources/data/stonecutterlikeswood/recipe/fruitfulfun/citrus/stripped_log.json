@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "fruitfulfun:citrus_log"
-  },
+  "ingredient": "fruitfulfun:citrus_log",
   "result": {
     "id": "fruitfulfun:stripped_citrus_log",
     "count": 1

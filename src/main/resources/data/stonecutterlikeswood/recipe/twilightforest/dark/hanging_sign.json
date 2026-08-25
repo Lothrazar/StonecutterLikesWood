@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "twilightforest:dark_planks"
-  },
+  "ingredient": "twilightforest:dark_planks",
   "result": {
     "id": "twilightforest:dark_hanging_sign",
     "count": 1

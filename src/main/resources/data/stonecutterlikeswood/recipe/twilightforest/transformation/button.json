@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "twilightforest:transformation_planks"
-  },
+  "ingredient": "twilightforest:transformation_planks",
   "result": {
     "id": "twilightforest:transformation_button",
     "count": 1

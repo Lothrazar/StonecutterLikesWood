@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:blossom_log"
-  },
+  "ingredient": "minecraft:blossom_log",
   "result": {
     "id": "quark:stripped_blossom_post",
     "count": 3

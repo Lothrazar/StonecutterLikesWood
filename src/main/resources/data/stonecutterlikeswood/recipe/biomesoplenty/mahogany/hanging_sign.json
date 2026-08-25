@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:mahogany_planks"
-  },
+  "ingredient": "biomesoplenty:mahogany_planks",
   "result": {
     "id": "biomesoplenty:mahogany_hanging_sign",
     "count": 1

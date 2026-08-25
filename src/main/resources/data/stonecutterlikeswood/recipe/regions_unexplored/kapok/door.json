@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:kapok_log"
-  },
+  "ingredient": "regions_unexplored:kapok_log",
   "result": {
     "id": "regions_unexplored:kapok_door",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:ancient_log"
-  },
+  "ingredient": "quark:ancient_log",
   "result": {
     "id": "quark:ancient_trapdoor",
     "count": 1

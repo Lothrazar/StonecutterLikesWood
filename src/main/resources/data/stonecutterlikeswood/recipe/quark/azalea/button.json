@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:azalea_planks"
-  },
+  "ingredient": "quark:azalea_planks",
   "result": {
     "id": "quark:azalea_button",
     "count": 1

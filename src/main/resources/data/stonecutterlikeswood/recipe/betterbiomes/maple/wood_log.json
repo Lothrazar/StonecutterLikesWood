@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "betterbiomes:maple_log"
-  },
+  "ingredient": "betterbiomes:maple_log",
   "result": {
     "id": "betterbiomes:maple_wood",
     "count": 1

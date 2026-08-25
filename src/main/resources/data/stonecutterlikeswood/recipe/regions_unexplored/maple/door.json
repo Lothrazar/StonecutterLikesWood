@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:maple_log"
-  },
+  "ingredient": "regions_unexplored:maple_log",
   "result": {
     "id": "regions_unexplored:maple_door",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:acacia_log"
-  },
+  "ingredient": "minecraft:acacia_log",
   "result": {
     "id": "quark:stripped_acacia_post",
     "count": 3

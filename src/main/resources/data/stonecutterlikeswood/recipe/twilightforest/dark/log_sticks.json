@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "twilightforest:dark_log"
-  },
+  "ingredient": "twilightforest:dark_log",
   "result": {
     "id": "minecraft:stick",
     "count": 8

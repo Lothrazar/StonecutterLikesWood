@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "botania:livingwood_log"
-  },
+  "ingredient": "botania:livingwood_log",
   "result": {
     "id": "botania:livingwood",
     "count": 1

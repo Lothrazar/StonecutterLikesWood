@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:blossom_planks"
-  },
+  "ingredient": "quark:blossom_planks",
   "result": {
     "id": "quark:blossom_hanging_sign",
     "count": 1

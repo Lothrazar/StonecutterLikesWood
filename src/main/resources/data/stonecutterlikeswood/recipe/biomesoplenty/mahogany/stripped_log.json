@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:mahogany_log"
-  },
+  "ingredient": "biomesoplenty:mahogany_log",
   "result": {
     "id": "biomesoplenty:stripped_mahogany_log",
     "count": 1

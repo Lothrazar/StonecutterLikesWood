@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:umbran_planks"
-  },
+  "ingredient": "biomesoplenty:umbran_planks",
   "result": {
     "id": "biomesoplenty:umbran_button",
     "count": 1

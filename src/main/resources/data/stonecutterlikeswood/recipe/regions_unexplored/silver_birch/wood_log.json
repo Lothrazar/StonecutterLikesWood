@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:silver_birch_log"
-  },
+  "ingredient": "regions_unexplored:silver_birch_log",
   "result": {
     "id": "regions_unexplored:silver_birch_wood",
     "count": 1

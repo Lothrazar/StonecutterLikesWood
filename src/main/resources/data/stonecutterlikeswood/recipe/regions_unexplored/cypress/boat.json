@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:cypress_log"
-  },
+  "ingredient": "regions_unexplored:cypress_log",
   "result": {
     "id": "regions_unexplored:cypress_boat",
     "count": 1

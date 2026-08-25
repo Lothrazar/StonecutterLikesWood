@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:mauve_planks"
-  },
+  "ingredient": "regions_unexplored:mauve_planks",
   "result": {
     "id": "regions_unexplored:mauve_sign",
     "count": 1

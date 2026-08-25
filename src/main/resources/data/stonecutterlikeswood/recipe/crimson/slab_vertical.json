@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:crimson_planks"
-  },
+  "ingredient": "minecraft:crimson_planks",
   "result": {
     "id": "quark:crimson_vertical_slab",
     "count": 2

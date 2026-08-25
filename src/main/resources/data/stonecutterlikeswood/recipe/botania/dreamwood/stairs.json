@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "botania:dreamwood_planks"
-  },
+  "ingredient": "botania:dreamwood_planks",
   "result": {
     "id": "botania:dreamwood_stairs",
     "count": 1

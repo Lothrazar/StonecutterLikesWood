@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:socotra_log"
-  },
+  "ingredient": "regions_unexplored:socotra_log",
   "result": {
     "id": "regions_unexplored:stripped_socotra_wood",
     "count": 1

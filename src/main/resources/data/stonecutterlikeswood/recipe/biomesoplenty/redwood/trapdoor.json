@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:redwood_log"
-  },
+  "ingredient": "biomesoplenty:redwood_log",
   "result": {
     "id": "biomesoplenty:redwood_trapdoor",
     "count": 1

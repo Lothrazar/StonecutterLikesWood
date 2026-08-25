@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:cobalt_planks"
-  },
+  "ingredient": "regions_unexplored:cobalt_planks",
   "result": {
     "id": "regions_unexplored:cobalt_slab",
     "count": 2

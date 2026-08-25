@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:cobalt_log"
-  },
+  "ingredient": "regions_unexplored:cobalt_log",
   "result": {
     "id": "regions_unexplored:cobalt_wood",
     "count": 1

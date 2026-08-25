@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:magnolia_planks"
-  },
+  "ingredient": "regions_unexplored:magnolia_planks",
   "result": {
     "id": "regions_unexplored:magnolia_fence",
     "count": 1

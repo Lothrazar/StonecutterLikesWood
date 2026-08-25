@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:cypress_planks"
-  },
+  "ingredient": "regions_unexplored:cypress_planks",
   "result": {
     "id": "regions_unexplored:cypress_pressure_plate",
     "count": 2

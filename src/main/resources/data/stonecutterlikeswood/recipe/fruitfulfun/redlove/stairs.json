@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "fruitfulfun:redlove_planks"
-  },
+  "ingredient": "fruitfulfun:redlove_planks",
   "result": {
     "id": "fruitfulfun:redlove_stairs",
     "count": 1

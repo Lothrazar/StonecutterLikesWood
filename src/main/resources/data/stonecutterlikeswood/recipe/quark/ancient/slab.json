@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:ancient_planks"
-  },
+  "ingredient": "quark:ancient_planks",
   "result": {
     "id": "quark:ancient_planks_slab",
     "count": 2

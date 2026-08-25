@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:azalea_log"
-  },
+  "ingredient": "quark:azalea_log",
   "result": {
     "id": "quark:hollow_azalea_log",
     "count": 1

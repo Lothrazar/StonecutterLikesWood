@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:brimwood_log"
-  },
+  "ingredient": "regions_unexplored:brimwood_log",
   "result": {
     "id": "regions_unexplored:brimwood_boat",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "thermal:rubberwood_log"
-  },
+  "ingredient": "thermal:rubberwood_log",
   "result": {
     "id": "thermal:rubberwood_wood",
     "count": 1

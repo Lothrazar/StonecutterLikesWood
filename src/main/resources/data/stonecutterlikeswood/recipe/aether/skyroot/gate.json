@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "aether:skyroot_planks"
-  },
+  "ingredient": "aether:skyroot_planks",
   "result": {
     "id": "aether:skyroot_fence_gate",
     "count": 1

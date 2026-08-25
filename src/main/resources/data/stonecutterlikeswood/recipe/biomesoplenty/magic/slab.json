@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "biomesoplenty:magic_planks"
-  },
+  "ingredient": "biomesoplenty:magic_planks",
   "result": {
     "id": "biomesoplenty:magic_slab",
     "count": 2

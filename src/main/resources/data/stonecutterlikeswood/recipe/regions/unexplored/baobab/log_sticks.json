@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:baobab_log"
-  },
+  "ingredient": "regions_unexplored:baobab_log",
   "result": {
     "id": "minecraft:stick",
     "count": 8

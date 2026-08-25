@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "evilcraft:undead_log"
-  },
+  "ingredient": "evilcraft:undead_log",
   "result": {
     "id": "evilcraft:undead_log_stripped",
     "count": 1

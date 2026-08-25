@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "aether:skyroot_log"
-  },
+  "ingredient": "aether:skyroot_log",
   "result": {
     "id": "aether:stripped_skyroot_log",
     "count": 1

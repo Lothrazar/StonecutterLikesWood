@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "quark:azalea_log"
-  },
+  "ingredient": "quark:azalea_log",
   "result": {
     "id": "minecraft:stick",
     "count": 8

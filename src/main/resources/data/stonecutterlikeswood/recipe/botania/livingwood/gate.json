@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "botania:livingwood_planks"
-  },
+  "ingredient": "botania:livingwood_planks",
   "result": {
     "id": "botania:livingwood_fence_gate",
     "count": 1

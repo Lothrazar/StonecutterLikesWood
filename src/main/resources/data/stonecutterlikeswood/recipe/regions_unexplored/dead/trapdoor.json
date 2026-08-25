@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:dead_log"
-  },
+  "ingredient": "regions_unexplored:dead_log",
   "result": {
     "id": "regions_unexplored:dead_trapdoor",
     "count": 1

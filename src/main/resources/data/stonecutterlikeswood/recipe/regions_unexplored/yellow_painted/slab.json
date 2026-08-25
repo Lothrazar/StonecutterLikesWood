@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:yellow_painted_planks"
-  },
+  "ingredient": "regions_unexplored:yellow_painted_planks",
   "result": {
     "id": "regions_unexplored:yellow_painted_slab",
     "count": 2

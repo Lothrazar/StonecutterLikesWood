@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:gray_painted_planks"
-  },
+  "ingredient": "regions_unexplored:gray_painted_planks",
   "result": {
     "id": "regions_unexplored:gray_painted_stairs",
     "count": 1

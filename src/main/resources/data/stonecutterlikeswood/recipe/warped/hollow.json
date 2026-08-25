@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:warped_stem"
-  },
+  "ingredient": "minecraft:warped_stem",
   "result": {
     "id": "quark:hollow_warped_stem",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:ashen_log"
-  },
+  "ingredient": "regions_unexplored:ashen_log",
   "result": {
     "id": "regions_unexplored:ashen_wood",
     "count": 1

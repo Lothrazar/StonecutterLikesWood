@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:willow_log"
-  },
+  "ingredient": "regions_unexplored:willow_log",
   "result": {
     "id": "regions_unexplored:stripped_willow_log",
     "count": 1

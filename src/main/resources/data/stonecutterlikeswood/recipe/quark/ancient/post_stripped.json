@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:ancient_log"
-  },
+  "ingredient": "minecraft:ancient_log",
   "result": {
     "id": "quark:stripped_ancient_post",
     "count": 3

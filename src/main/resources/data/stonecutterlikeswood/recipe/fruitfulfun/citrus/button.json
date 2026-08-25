@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "fruitfulfun:citrus_planks"
-  },
+  "ingredient": "fruitfulfun:citrus_planks",
   "result": {
     "id": "fruitfulfun:citrus_button",
     "count": 1

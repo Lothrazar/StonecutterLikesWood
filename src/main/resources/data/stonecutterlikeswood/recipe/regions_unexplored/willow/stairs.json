@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:willow_planks"
-  },
+  "ingredient": "regions_unexplored:willow_planks",
   "result": {
     "id": "regions_unexplored:willow_stairs",
     "count": 1

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "betterbiomes:maple_planks"
-  },
+  "ingredient": "betterbiomes:maple_planks",
   "result": {
     "id": "betterbiomes:maple_pressure_plate",
     "count": 2

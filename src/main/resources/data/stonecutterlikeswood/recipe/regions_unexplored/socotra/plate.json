@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "regions_unexplored:socotra_planks"
-  },
+  "ingredient": "regions_unexplored:socotra_planks",
   "result": {
     "id": "regions_unexplored:socotra_pressure_plate",
     "count": 2
